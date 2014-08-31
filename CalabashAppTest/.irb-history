@@ -1,0 +1,37 @@
+reinstall_test_server
+reinstall_apps
+start_test_server_in_background
+start_test_server_in_background
+exit
+start_test_server_in_background
+query("*")
+touch("Send")
+touch("* text:Send")
+touch("* text:'Send'")
+touch("Button text:'Send'")
+touch("Button text:'Send'")
+touch("Button text:'Send'")
+touch("Button text:'Send'")
+query("*")
+query("* id:'etName'")
+touch("* id:'etName'")
+touch("* id:'etMusc'")
+touch("* id:'etMusic'")
+touch("* id:'btnSend'")
+query("*")
+query("*")
+query("*")[8]
+touch("*")[8]
+touch("* index:8")
+start_test_server_in_background
+query("*")
+query("Button")
+touch("Button")
+touch("Button text:'Send'")
+touch("Button text:'Send'")
+touch("Button index:0")
+touch("*")
+query("*")
+
+perform_action("list_actions")
+exit
